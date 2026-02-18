@@ -15,6 +15,8 @@ This platform simulates a real-world e-commerce ecosystem with:
 
 # 🏗️ Architecture
 
+![ShopSmart AI Architecture](architecture_main.png)
+
 | Layer | Technology |
 |-------|------------|
 | Storage | Azure Data Lake Storage Gen2 (ADLS) |
