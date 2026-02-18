@@ -1,0 +1,25 @@
+# Secrets / local env
+.env
+*.env
+.databrickscfg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Terraform (never commit state or .terraform)
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Big generated data (don’t push to GitHub)
+synthetic_data/output_data/
+*.csv
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
